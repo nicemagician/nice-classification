@@ -1,6 +1,6 @@
 # 🎯 NICE Classification Assistant (AI + RAG)
 
-**An AI-powered assistant that helps classify goods and services using NICE classification data from IPOS, USPTO and official guidelines.**  
+**An AI-powered assistant that helps classify goods and services using official NICE classification sources — including the WIPO Alphabetical List, IPOS, USPTO, and interpretation rules.**  
 Built with OpenAI, Pinecone, and fully open-source.
 
 ---
