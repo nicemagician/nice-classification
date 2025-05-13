@@ -44,7 +44,7 @@ def process_csv(filepath, source):
 
 # Process each source
 process_csv("data/alphabetical_list.csv", "alphabetical")
-process_csv("data/ipos_database.csv", "ipos")
-process_csv("data/uspto_database.csv", "uspto")
+# process_csv("data/ipos_database.csv", "ipos")
+# process_csv("data/uspto_database.csv", "uspto")
 
 print("✅ All data embedded and uploaded to Pinecone.")
