@@ -18,3 +18,21 @@ OPENAI_API_KEY=your_openai_key_here
 PINECONE_API_KEY=your_pinecone_key_here
 PINECONE_INDEX=nice-classification
 ```
+
+---
+
+## 🗺️ Project Roadmap
+
+### ✅ Completed
+- Created GitHub repo and uploaded datasets
+- Created `scripts/embed_data.py` and embedded `alphabetical_list.csv`
+- Connected OpenAI and Pinecone
+- Tested embeddings via Google Colab
+
+### 🔜 Upcoming
+- [ ] Add FastAPI backend (`backend/app.py`)
+- [ ] Build `/classify` endpoint using GPT-4o + Pinecone
+- [ ] Add frontend UI (optional)
+- [ ] Embed IPOS and USPTO datasets
+- [ ] Improve system prompt for ambiguity and multi-class logic
+- [ ] Prepare for public or WIPO presentation
