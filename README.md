@@ -32,7 +32,7 @@ Built with OpenAI, Pinecone, and fully open-source.
 
 ## 🚀 Demo Ready
 Use your own dataset. Embed it in Colab. Deploy with one command.  
-Then ask real-world questions — in English or French — and get expert-level classification help.
+Then ask real-world questions — in English, French, or Spanish — and get expert-level classification help.
 
 ---
 
