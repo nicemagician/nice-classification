@@ -12,6 +12,7 @@ openai = OpenAI(api_key=openai_api_key)
 
 pinecone = Pinecone(api_key=pinecone_api_key)
 if pinecone_index not in pinecone.list_indexes():
+    # Skip index creation if it already exists to avoid Pinecone 409 conflict error
     # pinecone.create_index(name=pinecone_index, dimension=1536, metric="cosine", spec=ServerlessSpec(cloud="aws", region="us-east-1"))
 index = pinecone.Index(pinecone_index)
 
