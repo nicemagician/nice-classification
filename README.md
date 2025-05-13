@@ -1,4 +1,49 @@
-# An AI-powered NICE classification assistant.
+# 🎯 NICE Classification Assistant (AI + RAG)
+
+**An AI-powered assistant that helps classify goods and services using NICE classification data from IPOS, USPTO and official guidelines.**  
+Built with OpenAI, Pinecone, and fully open-source.
+
+---
+
+## ✨ What It Does
+
+🔍 Ask: _“Where should I classify Bluetooth-connected aroma diffusers?”_  
+🧠 It searches your real classification data (IPOS, USPTO, alphabetical list)  
+💬 Then GPT-4o answers like an expert, with justification and context
+
+---
+
+## 🧠 Powered by:
+- **OpenAI GPT-4o** for smart answers and embeddings
+- **Pinecone** for fast vector search (RAG retrieval)
+- **Your own classification data** (up to 200,000+ terms)
+- **FastAPI** backend + optional frontend UI
+
+---
+
+## 📦 Key Features
+- 💡 Understands unknown, vague, or multi-class terms
+- 🧾 Justifies answers with real NICE classification context
+- 🔧 Easy to update (just add new data)
+- 🌍 Fully online (Colab + GitHub + Pinecone)
+- 📖 Open-source (GPLv3)
+
+---
+
+## 🚀 Demo Ready
+Use your own dataset. Embed it in Colab. Deploy with one command.  
+Then ask real-world questions — in English or French — and get expert-level classification help.
+
+---
+
+## 🔗 Quick Links
+- [Project Summary](nice-classification-summary.md)
+- [Roadmap](nice-classification-roadmap.md)
+- [Architecture Explained](nice-classification-architecture-explained.md)
+
+> Built by [punkinet](https://github.com/punkinet) — inspired by real-world NICE classification needs.
+
+---
 
 ## 🔧 Setup Instructions
 1. Clone the repo
