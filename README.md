@@ -1,6 +1,6 @@
-# 🎯 NICE Classification Assistant (AI + RAG)
+# 🎯 Nice Classification Assistant (AI + RAG)
 
-**An AI-powered assistant that helps classify goods and services using official NICE classification sources — including the WIPO Alphabetical List, IPOS, USPTO, and interpretation rules.**  
+**An AI-powered assistant that helps classify goods and services using official Nice classification sources — including the WIPO Alphabetical List, IPOS, USPTO, and interpretation rules.**  
 Built with OpenAI, Pinecone, and fully open-source.
 
 ---
@@ -23,7 +23,7 @@ Built with OpenAI, Pinecone, and fully open-source.
 
 ## 📦 Key Features
 - 💡 Understands unknown, vague, or multi-class terms
-- 🧾 Justifies answers with real NICE classification context
+- 🧾 Justifies answers with real Nice classification context
 - 🔧 Easy to update (just add new data)
 - 🌍 Fully online (Colab + GitHub + Pinecone)
 - 📖 Open-source (GPLv3)
@@ -41,7 +41,7 @@ Then ask real-world questions — in English, French, or Spanish — and get exp
 - [Roadmap](nice-classification-roadmap.md)
 - [Architecture Explained](nice-classification-architecture-explained.md)
 
-> Built by [punkinet](https://github.com/punkinet) — inspired by real-world NICE classification needs.
+> Built by [punkinet](https://github.com/punkinet) — inspired by real-world Nice classification needs.
 
 ---
 
