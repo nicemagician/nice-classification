@@ -78,7 +78,7 @@ PINECONE_INDEX=nice-classification
 - Connected OpenAI and Pinecone
 - Set up FastAPI backend on Replit
 - Deployed frontend with Vercel
-- Ping protection and always-on deployment
+- Deployed backend on Reserved VM with auto-restart via `main.py`
 
 ### 🔜 Upcoming
 - [ ] Add MGS, XMASTree and Madrid Guidelines
