@@ -1,0 +1,20 @@
+term,description,class_number,language
+hydrogen peroxide for industrial purposes,Belongs to Class 1 when used for industrial purposes.,1,en
+hydrogen peroxide for cosmetic purposes,Belongs to Class 3 when used for cosmetic purposes.,3,en
+hydrogen peroxide for medical purposes,Belongs to Class 5 when used for medical purposes.,5,en
+artificial resins in viscous liquid form,Unprocessed resins for industrial use are in Class 1.,1,en
+artificial resins in semi-finished form,"Are no longer in Class 1, but in Class 17.",17,en
+artificial resins in finished goods,Finished goods from resins are in Class 20.,20,en
+adhesives for wall tiles,Specialized adhesives for industrial use belong to Class 1.,1,en
+adhesives for cosmetic purposes,Fall under Class 3.,3,en
+adhesives for dentures,Fall under Class 5.,5,en
+adhesives for stationery,Fall under Class 16.,16,en
+glaziers' putty,Industrial paste fillers like glaziers' putty are in Class 1.,1,en
+caulking putty,Exception – belongs to Class 17.,17,en
+toy putty,Exception – belongs to Class 28.,28,en
+fertilizers,"Enhance plant growth, fall under Class 1.",1,en
+pesticides,Fall under Class 5 because they kill pests.,5,en
+fungicides,Fall under Class 5 because they kill pests.,5,en
+herbicides,Fall under Class 5 because they kill pests.,5,en
+biological preparations for industrial use,Class 1 when for science and industry.,1,en
+biological preparations for medical use,Class 5 when for medical or veterinary purposes.,5,en
