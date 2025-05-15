@@ -9,11 +9,10 @@ pinecone_api_key = os.getenv("PINECONE_API_KEY")
 pinecone_index = os.getenv("PINECONE_INDEX", "nice-classification")
 
 openai = OpenAI(api_key=openai_api_key)
-
 pinecone = Pinecone(api_key=pinecone_api_key)
+
 if pinecone_index not in pinecone.list_indexes():
-    # Skip index creation if it already exists to avoid Pinecone 409 conflict error
-    pass  # Index already exists, so do nothing
+    pass  # index already exists
 
 index = pinecone.Index(pinecone_index)
 
@@ -25,24 +24,53 @@ def process_csv(filepath, source):
         reader = csv.DictReader(f)
         for i, row in enumerate(tqdm(reader)):
             if source == "alphabetical":
-                term = row.get("Indication", "").strip()
-                text = f"Class {row.get('Class', '').strip()} – {term}"
+                term = row.get("term", "").strip()
+                description = row.get("description", "").strip()
+                class_number = row.get("class_number", "").strip()
+                language = row.get("language", "en").strip()
+                basic_number = row.get("basic_number", "").strip()
+
+                text = f"Class {class_number} – {term}. {description}"
+
+                metadata = {
+                    "term": term,
+                    "description": description,
+                    "class_number": class_number,
+                    "language": language,
+                    "basic_number": basic_number,
+                    "source": source
+                }
+
             elif source == "ipos":
                 term = row.get("Goods and Services Description", "").strip()
-                text = f"Class {row.get('Class No.', '').strip()} – {term}"
+                class_number = row.get("Class No.", "").strip()
+                text = f"Class {class_number} – {term}"
+                metadata = {
+                    "term": term,
+                    "class_number": class_number,
+                    "source": source
+                }
+
             elif source == "uspto":
                 term = row.get("Description", "").strip()
-                text = f"Class {row.get('Class', '').strip()} – {term}"
+                class_number = row.get("Class", "").strip()
+                text = f"Class {class_number} – {term}"
+                metadata = {
+                    "term": term,
+                    "class_number": class_number,
+                    "source": source
+                }
+
             else:
-                continue  # skip unknown format
+                continue
 
             if not term or not text:
                 continue
 
             vec = embed([text])[0].embedding
-            index.upsert([(f"{source}-{i}", vec, {"term": term, "text": text, "source": source})])
+            index.upsert([(f"{source}-{i}", vec, metadata)])
 
-# Process each source
+# Process alphabetical list
 process_csv("data/alphabetical_list.csv", "alphabetical")
 # process_csv("data/ipos_database.csv", "ipos")
 # process_csv("data/uspto_database.csv", "uspto")
