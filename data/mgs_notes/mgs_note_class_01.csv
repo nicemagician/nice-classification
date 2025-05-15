@@ -1,20 +1,41 @@
 term,description,class_number,language
-hydrogen peroxide for industrial purposes,Belongs to Class 1 when used for industrial purposes.,1,en
-hydrogen peroxide for cosmetic purposes,Belongs to Class 3 when used for cosmetic purposes.,3,en
-hydrogen peroxide for medical purposes,Belongs to Class 5 when used for medical purposes.,5,en
-artificial resins in viscous liquid form,Unprocessed resins for industrial use are in Class 1.,1,en
-artificial resins in semi-finished form,"Are no longer in Class 1, but in Class 17.",17,en
-artificial resins in finished goods,Finished goods from resins are in Class 20.,20,en
-adhesives for wall tiles,Specialized adhesives for industrial use belong to Class 1.,1,en
-adhesives for cosmetic purposes,Fall under Class 3.,3,en
-adhesives for dentures,Fall under Class 5.,5,en
-adhesives for stationery,Fall under Class 16.,16,en
-glaziers' putty,Industrial paste fillers like glaziers' putty are in Class 1.,1,en
-caulking putty,Exception – belongs to Class 17.,17,en
-toy putty,Exception – belongs to Class 28.,28,en
-fertilizers,"Enhance plant growth, fall under Class 1.",1,en
-pesticides,Fall under Class 5 because they kill pests.,5,en
-fungicides,Fall under Class 5 because they kill pests.,5,en
-herbicides,Fall under Class 5 because they kill pests.,5,en
-biological preparations for industrial use,Class 1 when for science and industry.,1,en
-biological preparations for medical use,Class 5 when for medical or veterinary purposes.,5,en
+hydrogen peroxide for industrial purposes,"For example, hydrogen peroxide for industrial purposes is in Class 1, hydrogen peroxide for cosmetic purposes is in Cl. 3 and hydrogen peroxide for medical purposes is in Cl. 5.",1,en
+hydrogen peroxide for cosmetic purposes,"For example, hydrogen peroxide for industrial purposes is in Class 1, hydrogen peroxide for cosmetic purposes is in Cl. 3 and hydrogen peroxide for medical purposes is in Cl. 5.",3,en
+hydrogen peroxide for medical purposes,"For example, hydrogen peroxide for industrial purposes is in Class 1, hydrogen peroxide for cosmetic purposes is in Cl. 3 and hydrogen peroxide for medical purposes is in Cl. 5.",5,en
+chemical products for use in industry,"According to the Explanatory Note, Class 1 includes mainly ""chemical products for use in industry, science and agriculture, including those which go to the making of products belonging to other classes"".",1,en
+chemical products for use in science,"According to the Explanatory Note, Class 1 includes mainly ""chemical products for use in industry, science and agriculture, including those which go to the making of products belonging to other classes"".",1,en
+chemical products for use in agriculture,"According to the Explanatory Note, Class 1 includes mainly ""chemical products for use in industry, science and agriculture, including those which go to the making of products belonging to other classes"".",1,en
+synthetic products,"The term ""chemical products"" in this instance refers to synthetic as well as natural products.",1,en
+natural products,"The term ""chemical products"" in this instance refers to synthetic as well as natural products.",1,en
+artificial resins,"This justifies the inclusion in Class 1 of synthetic products, such as artificial resins, and of natural products or raw materials, such as raw salt, protein, albumin and lactose.",1,en
+raw salt,"This justifies the inclusion in Class 1 of synthetic products, such as artificial resins, and of natural products or raw materials, such as raw salt, protein, albumin and lactose.",1,en
+protein,"This justifies the inclusion in Class 1 of synthetic products, such as artificial resins, and of natural products or raw materials, such as raw salt, protein, albumin and lactose.",1,en
+albumin,"This justifies the inclusion in Class 1 of synthetic products, such as artificial resins, and of natural products or raw materials, such as raw salt, protein, albumin and lactose.",1,en
+lactose,"This justifies the inclusion in Class 1 of synthetic products, such as artificial resins, and of natural products or raw materials, such as raw salt, protein, albumin and lactose.",1,en
+natural resins,"However, certain natural materials in their raw state are not in Class 1, either because of their function or because they are closely associated with goods belonging to other classes, for example, natural resins in Cl. 2, wax and petroleum in Cl. 4, rubber in Cl. 17, and chalk in Cl. 19.",2,en
+wax,"However, certain natural materials in their raw state are not in Class 1, either because of their function or because they are closely associated with goods belonging to other classes, for example, natural resins in Cl. 2, wax and petroleum in Cl. 4, rubber in Cl. 17, and chalk in Cl. 19.",4,en
+petroleum,"However, certain natural materials in their raw state are not in Class 1, either because of their function or because they are closely associated with goods belonging to other classes, for example, natural resins in Cl. 2, wax and petroleum in Cl. 4, rubber in Cl. 17, and chalk in Cl. 19.",4,en
+rubber,"However, certain natural materials in their raw state are not in Class 1, either because of their function or because they are closely associated with goods belonging to other classes, for example, natural resins in Cl. 2, wax and petroleum in Cl. 4, rubber in Cl. 17, and chalk in Cl. 19.",17,en
+chalk,"However, certain natural materials in their raw state are not in Class 1, either because of their function or because they are closely associated with goods belonging to other classes, for example, natural resins in Cl. 2, wax and petroleum in Cl. 4, rubber in Cl. 17, and chalk in Cl. 19.",19,en
+unprocessed artificial resins,"For example, unprocessed artificial resins, usually in the form of viscous liquids, are in Class 1.",1,en
+artificial resins in the form of rods,"When artificial resins are manufactured into semi-finished products, for example, in the form of rods or sheets, they are no longer in Class 1 but in Cl. 17.",17,en
+artificial resins in the form of sheets,"When artificial resins are manufactured into semi-finished products, for example, in the form of rods or sheets, they are no longer in Class 1 but in Cl. 17.",17,en
+finished goods from semi-processed resins,"Further manufacture turns these semi-processed resins into finished goods that are in other classes, such as Cl. 20.",20,en
+adhesives for use in industry,"Class 1 also includes certain adhesives, specifically those for use in industry, as well as specialized adhesives, such as adhesives for wall tiles or wallpaper.",1,en
+adhesives for wall tiles,"Class 1 also includes certain adhesives, specifically those for use in industry, as well as specialized adhesives, such as adhesives for wall tiles or wallpaper.",1,en
+adhesives for wallpaper,"Class 1 also includes certain adhesives, specifically those for use in industry, as well as specialized adhesives, such as adhesives for wall tiles or wallpaper.",1,en
+adhesives for cosmetic purposes,"Adhesives can also belong to other classes, for example, adhesives for cosmetic purposes in Cl. 3, adhesives for dentures in Cl. 5 and adhesives for stationery purposes in Cl. 16.",3,en
+adhesives for dentures,"Adhesives can also belong to other classes, for example, adhesives for cosmetic purposes in Cl. 3, adhesives for dentures in Cl. 5 and adhesives for stationery purposes in Cl. 16.",5,en
+adhesives for stationery purposes,"Adhesives can also belong to other classes, for example, adhesives for cosmetic purposes in Cl. 3, adhesives for dentures in Cl. 5 and adhesives for stationery purposes in Cl. 16.",16,en
+glaziers' putty,"Similarly, putties and other paste fillers like glaziers' putty and oil cement also belong to Class 1.",1,en
+oil cement,"Similarly, putties and other paste fillers like glaziers' putty and oil cement also belong to Class 1.",1,en
+caulking putty,"There are, however, some exceptions such as caulking putty in Cl. 17 and toy putty in Cl. 28.",17,en
+toy putty,"There are, however, some exceptions such as caulking putty in Cl. 17 and toy putty in Cl. 28.",28,en
+compost,"It should be noted that compost, manure and other products for enhancing plant growth, such as fertilizers, are in Class 1.",1,en
+manure,"It should be noted that compost, manure and other products for enhancing plant growth, such as fertilizers, are in Class 1.",1,en
+fertilizers,"It should be noted that compost, manure and other products for enhancing plant growth, such as fertilizers, are in Class 1.",1,en
+pesticides,"It should be noted that compost, manure and other products for enhancing plant growth, such as fertilizers, are in Class 1, while pesticides, fungicides and herbicides are in Cl. 5 because their primary function is to kill pests and weeds, even though this may ultimately encourage plant growth.",5,en
+fungicides,"It should be noted that compost, manure and other products for enhancing plant growth, such as fertilizers, are in Class 1, while pesticides, fungicides and herbicides are in Cl. 5 because their primary function is to kill pests and weeds, even though this may ultimately encourage plant growth.",5,en
+herbicides,"It should be noted that compost, manure and other products for enhancing plant growth, such as fertilizers, are in Class 1, while pesticides, fungicides and herbicides are in Cl. 5 because their primary function is to kill pests and weeds, even though this may ultimately encourage plant growth.",5,en
+biological preparations for science and industry,"Finally, biological preparations belong to Class 1 when they are for use in science and industry but are in Cl. 5 when for medical or veterinary purposes.",1,en
+biological preparations for medical or veterinary purposes,"Finally, biological preparations belong to Class 1 when they are for use in science and industry but are in Cl. 5 when for medical or veterinary purposes.",5,en
